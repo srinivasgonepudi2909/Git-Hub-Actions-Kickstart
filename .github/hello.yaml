@@ -9,5 +9,5 @@ jobs:
     steps:
       - name: "Prinit Todays Date"
         run: date
-      - name: "Hi ${{ github.actor }} "
-        run: echo "Your name is ${{ github.actor }} " 
+      - name: "Hi ${{ github.actor }}"
+        run: echo "Your name is ${{ github.actor }}" 
