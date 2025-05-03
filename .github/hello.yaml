@@ -1,0 +1,13 @@
+name: First Workflow
+
+on: [push]  # <-- trigger
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: "Prinit Todays Date"
+        run: date
+      - name: "Hi ${{ github.actor }} "
+        run: echo "Your name is ${{ github.actor }} " 
