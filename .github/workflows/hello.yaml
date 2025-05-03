@@ -1,6 +1,8 @@
 name: First Workflow
 
-on: [push]  # <-- trigger
+on:
+  push:
+  workflow_dispatch:
 
 jobs:
   say-hello:
